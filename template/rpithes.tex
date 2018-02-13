@@ -12,13 +12,17 @@
 
 \documentclass[chap]{thesis}
 
-% Use the first command below if you want captions over 1 line indented. A side
-% effect of this is to remove the use of bold for captions (thesis default).
-% To restore bold, also include the second line below.
-%\usepackage[hang]{caption}      % to indent subsequent lines of captions
-%\renewcommand{\captionfont}{\bfseries} % bold caption (needed with caption
-                                       % package to restore boldface.)
-
+%packages to automate the placement of captions below Figures, above Tables,
+% and the bolding of these captions.
+% Note: if you will also \usepackage{algorithm} or another package that will call \usepackage{float}
+%  you must invoke those use-packages AFTER you invoke \usepackage{floatrow}
+\usepackage[font=bf,labelfont=bf,labelsep=colon,
+justification=centerlast]{caption}
+\usepackage{floatrow}
+\usepackage[tableposition=top]{caption}
+\floatsetup[table]{capposition=top}
+\usepackage[margin=1in]{geometry}
+%\usepackage{algorithm}
 
 %\includeonly{rpichap1}  % use \includeonly to process only
                          % the file(s) listed inside the braces
