@@ -33,7 +33,10 @@ A link to the original file and a list of changes is noted above.
 ## RPI's Provided Template
 
 The files in the `template` folder contain the RPI thesis template tex files (originally provided by dotCIO).
-The only change exists in [rpithes.tex:27](https://github.com/gonsie/rpi-latex-thesis/blob/master/template/rpithes.tex#L27) and it is for the self attribution required by the OGE Thesis Manual (page 12).
+
+There are two changes:
+1. In [rpithes.tex:32](https://github.com/gonsie/rpi-latex-thesis/blob/master/template/rpithes.tex#L32) for the self attribution required by the OGE Thesis Manual (page 12).
+2. In [rpithes.tex:15](https://github.com/gonsie/rpi-latex-thesis/blob/master/template/rpithes.tex#L15) for automated figure caption placement below the figure, and table caption placement above the figure. As well as caption bolding and centering.
 
 ## RPI/OGE Forms
 
