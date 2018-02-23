@@ -47,7 +47,7 @@ Hard copies of some of the needed forms can be found in the `OGE-forms` folder.
 - RPI's Academic Calendar: http://www.rpi.edu/academics/calendar
   - includes thesis/dissertation due dates
   - includes deadlines for defences
-- Offical Thesis/Dissertation guide: http://www.rpi.edu/dept/grad/docs/ThesisManual.pdf
+- Offical Thesis/Dissertation guides: https://info.rpi.edu/graduate-academics/submit-your-thesis-dissertation
   - includes guidelines for citing your own work
   - includes document style/formatting specifications
 - dotCIO Thesis Page: http://dotcio.rpi.edu/services/printing-publishing/thesis-preparation
